@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(http://fonts.googleapis.com/css?family=Fredoka+One);
+
+$limegreen: #00FF99;
+$skybluemario: #DBFCFF;
+$mario: #0EF5F7;
+
+body {
+  background: $limegreen;
+//background: #00FF99 lime green
+  }
+.container {
+  width: 400px;
+  }  
+h4 {
+    text-align: center;
+    font: 1.5vw 'Fredoka One';
+  }
+h2 {
+    font: 7.5vw 'Fredoka One';
+    text-align: center;
+  }  
+
+.controls {
+  justify-content: center;
+  display: flex;
+  button {
+    padding: 10px 20px;
+    background: #FFFF00;
+    margin: 10px auto;
+    border: 4px ridge;
+    } 
+  }
+
+
+
