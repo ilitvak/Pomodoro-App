@@ -10,7 +10,6 @@ body {
   background: $limegreen;
 //background: #00FF99 lime green
   }
-
 h4 {
     text-align: center;
     font: 1.5vw 'Fredoka One';
@@ -25,9 +24,12 @@ h2 {
   display: flex;
   button {
     padding: 10px 20px;
-    background: #FFFF00;
+    background: $skybluemario;
     margin: 10px 20px;
     border: 4px ridge;
+    a {
+      text-decoration: none;
+      }
     } 
   }
 
