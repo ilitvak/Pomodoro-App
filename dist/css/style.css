@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(http://fonts.googleapis.com/css?family=Fredoka+One);
+body {
+  background: #00FF99; }
+
+h4 {
+  text-align: center;
+  font: 1.5vw 'Fredoka One'; }
+
+h2 {
+  font: 7.5vw 'Fredoka One';
+  text-align: center; }
+
+.controls {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .controls button {
+    padding: 10px 20px;
+    background: #DBFCFF;
+    margin: 10px 20px;
+    border: 4px ridge; }
+    .controls button a {
+      text-decoration: none; }
