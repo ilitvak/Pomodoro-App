@@ -19,7 +19,7 @@ Installation Steps
 
 Start by cloning the repository.
 ```
-$git clone https://github.com/ilitvak/Self-Destructing-To-Do-List.git <Your directory name>
+$git clone https://github.com/ilitvak/Pomodoro-App.git <Your directory name>
 ```
 
 The project uses Grunt to run tasks; start by installing the Grunt Command Line Interface (`grunt-cli`) globally on your machine.
