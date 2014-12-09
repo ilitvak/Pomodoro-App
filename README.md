@@ -1,4 +1,7 @@
-Bloc Base Project
+Pomodoro-App
 =================
+Link to Application
+-------------------
+http://pomodoro-app-timer.herokuapp.com 
 
-A base project for frontend projects
+This project is based on a very popular productivity application. 
