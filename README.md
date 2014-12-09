@@ -10,9 +10,9 @@ This project is based on a very popular productivity application. This project w
 
 Languages Used:
 -----------------
-HTML5
-CSS3 w/ SASS(styling)
-AngularJs
+- HTML5
+- CSS3 w/ SASS(styling)
+- AngularJs
 
 Installation Steps
 -----------------
