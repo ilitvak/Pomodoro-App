@@ -36,7 +36,7 @@ $ npm install
 
 Starting the application
 ```
-$ grunt
+$  builds the files -> grunt
 ````
 ```
 $ npm start
