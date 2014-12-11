@@ -22,16 +22,10 @@ h2 {
 .controls {
   justify-content: center;
   display: flex;
-  button {
-    padding: 10px 20px;
-    background: $skybluemario;
-    margin: 10px 20px;
-    border: 4px ridge;
-    a {
-      text-decoration: none;
-      }
-    } 
+  a {
+    margin-left: 10px;
   }
+}
 
 
 
