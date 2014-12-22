@@ -33,7 +33,11 @@ Once that's complete, install the remaining project dependencies by running
 $ npm install
 ```
 
+
 Starting the application
+```
+$  builds the files -> grunt
+````
 ```
 $ npm start
 ```
