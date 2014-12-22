@@ -2,55 +2,52 @@
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 @import url(http://fonts.googleapis.com/css?family=Fredoka+One);
 
-$limegreen: #00FF99;
+$white: #ffffff;
 $skybluemario: #DBFCFF;
 $mario: #0EF5F7;
 
 body {
   margin-top: 50px;
-  background: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-4.jpg')no-repeat;
+  background: url('http://wallpapers55.com/wp-content/uploads/2013/08/3d-black-cubes-backgrounds-wallpapers1.jpg')no-repeat;
 //background: #00FF99 lime green
   }
 h4 {
     text-align: center;
     font: 1.5vw 'Fredoka One';
-    color: white;
+    color: $white;
   }
 h2 {
     font: 7.5vw 'Fredoka One';
     text-align: center;
+    color: $white;
   }  
-
 .controls {
   justify-content: center;
   display: flex;
   a {
     margin-left: 10px;
     background-color: #333;
-    color: #999;
+    color: $white;
     padding: 12px 24px;
     text-decoration: none;
     font-size: 17px;
-    border-radius: 3px;
+    border-radius: 15px;
     transition: all 0.5s ease;  
     &:hover {
       background: #E64848;
-      color: #FFF;
+      color: $white;
     }
   }
   .work1:hover {
     background: #33CCCC;
-    color: #FFF;
   }
   .break1:hover {
     background: #52CC52;
-    transition: background 0.6s, linear 0s, color 0.6s, linear 0s;
-    color: #FFF;
+    transition: all 0.4s ease;
   }
   .longbreak1:hover {
     background: #66A3FF;
-    transition: background 0.4s, linear 0s, color 0.4s, linear 0s;
-    color: #fff;
+    transition: all 0.4s ease;
   }
 }
 
