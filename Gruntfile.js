@@ -41,9 +41,9 @@ module.exports = function(grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    src: [ './**/*.png' ],
+                    src: [ './**/*.jpeg' ],
                     dest: './dist/img',
-                    cwd: './app/assets/'
+                    cwd: './app/img/'
                 }, {
                     expand: true,
                     src: [ './**/*.html' ],
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 	});
 
     grunt.loadNpmTasks('grunt-browserify');
-	  grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-sass');
