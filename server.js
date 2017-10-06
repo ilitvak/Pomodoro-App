@@ -23,12 +23,3 @@ function serverStarted() {
 function serveFile( root, req, res ) {
     res.sendFile(req.params.file, { root: root });
 }
-
-// Sets a timer to retrieve data from Heroku so the app doesnt sleep
-
-var https = require("https");
-
-setInterval(function(){
-    https.get("https://pomodoro-app-timer.herokuapp.com/");
-    console.log("Applicaton is awake");
-}, 250000);
