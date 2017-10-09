@@ -9,7 +9,7 @@ $mario: #0EF5F7;
 body {
     height: 100vh;
     margin-top: 50px;
-    background-image: url("/app/img/mountain.jpg");
+    background-image: url("../img/mountain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@ body {
 h4 {
     text-align: center;
     font: 1.5vw 'Fredoka One';
-    color: $white;
+    color: #000;
   }
 h2 {
     font: 7.5vw 'Fredoka One';
