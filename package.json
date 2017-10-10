@@ -4,7 +4,8 @@
   "description": "Bloc Base Project",
   "main": "server.js",
   "scripts": {
-    "start": "./node_modules/grunt/bin/grunt && nodemon server.js"
+    "dev": "./node_modules/grunt/bin/grunt && nodemon server.js",
+    "start": "./node_modules/grunt/bin/grunt && pm2 start server.js"
   },
   "author": "Nick Ferraro",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sas": "^1.2.0",
     "grunt-sass": "^2.0.0",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "pm2": "^2.7.1"
   }
 }
