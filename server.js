@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+
 var port = process.env.PORT || 3000;
 
 // Asset paths first
@@ -17,9 +18,10 @@ app.get('/*', function (req, res) {
 var server = app.listen(port, serverStarted);
 
 function serverStarted() {
-    console.log("Bloc Base Project is running");
+    console.log("Bloc Base Project is running on port " + port);
 }
 
 function serveFile( root, req, res ) {
     res.sendFile(req.params.file, { root: root });
 }
+

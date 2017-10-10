@@ -9,7 +9,8 @@
   "author": "Nick Ferraro",
   "license": "ISC",
   "dependencies": {
-    "express": "~4.9.7"
+    "express": "~4.9.7",
+    "pm2": "^2.7.1"
   },
   "devDependencies": {
     "browserify": "^14.4.0",
