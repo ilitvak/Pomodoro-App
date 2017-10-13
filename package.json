@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "./node_modules/.bin/grunt && nodemon server.js",
-    "start": "pm2 start server.js",
+    "start": "node server.js",
     "heroku-postbuild": "grunt"
   },
   "author": "Nick Ferraro",
