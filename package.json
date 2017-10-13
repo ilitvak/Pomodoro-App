@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "./node_modules/.bin/grunt && nodemon server.js",
-    "start": "./node_modules/.bin/grunt && pm2 start server.js"
+    "start": "grunt && pm2 start server.js"
   },
   "author": "Nick Ferraro",
   "license": "ISC",
