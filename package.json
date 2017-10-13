@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "./node_modules/.bin/grunt && nodemon server.js",
     "start": "pm2 start server.js",
-    "postinstall": "./node_modules/.bin/grunt"
+    "heroku-postbuild": "./node_modules/.bin/grunt"
   },
   "author": "Nick Ferraro",
   "license": "ISC",
