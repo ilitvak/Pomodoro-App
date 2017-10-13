@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "description": "Bloc Base Project",
   "main": "server.js",
+  "engines": {
+    "node": "^8.4.0",
+    "npm": "^5.5.1"
+  },
   "scripts": {
     "dev": "./node_modules/.bin/grunt && nodemon server.js",
-    "start": "pm2 start server.js",
+    "start": "grunt && node server.js",
     "postinstall": "./node_modules/.bin/grunt"
   },
   "author": "Nick Ferraro",
