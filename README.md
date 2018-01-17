@@ -1,8 +1,10 @@
 Pomodoro-App
 =================
+
 Link to Application
 -------------------
-http://pomodoro-app-timer.herokuapp.com 
+
+http://ilitvak.github.io/Pomodoro-App/
 
 What was my motivation for this? 
 -------------------
