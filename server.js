@@ -4,9 +4,9 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 // Asset paths first
-app.get('/js/:file', serveFile.bind(null, 'dist/js'));
-app.get('/css/:file', serveFile.bind(null, 'dist/css'));
-app.get('/img/:file', serveFile.bind(null, 'dist/img'));
+app.get('/app/js/:file', serveFile.bind(null, 'dist/js'));
+app.get('/app/css/:file', serveFile.bind(null, 'dist/css'));
+app.get('/app/img/:file', serveFile.bind(null, 'dist/img'));
 app.get('/app/templates/:file', serveFile.bind(null, 'dist/templates'));
 
 // Anything else is sent to index.html to support SPA routing
