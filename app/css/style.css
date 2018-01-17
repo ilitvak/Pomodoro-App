@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(http://fonts.googleapis.com/css?family=Fredoka+One);
+body {
+  height: 100vh;
+  margin-top: 50px;
+  background-image: url("../img/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+h4 {
+  text-align: center;
+  font: 1.5vw 'Fredoka One';
+  color: #000; }
+
+h2 {
+  font: 7.5vw 'Fredoka One';
+  text-align: center;
+  color: #ffffff; }
+
+.controls {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .controls a {
+    margin-left: 10px;
+    background-color: #333;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 15px;
+    transition: all 0.5s ease; }
+    .controls a:hover {
+      background: #E64848;
+      color: #ffffff; }
+  .controls .work1:hover {
+    background: #33CCCC; }
+  .controls .break1:hover {
+    background: #52CC52;
+    transition: all 0.4s ease; }
+  .controls .longbreak1:hover {
+    background: #66A3FF;
+    transition: all 0.4s ease; }

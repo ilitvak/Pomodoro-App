@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="TimerApp">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Pomodoro-App</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class='container'>
+            <h4>Work Hard / Play Hard - Your ticket to Productivity!</h4>
+            <div class="controls">
+                <a class="work1" ui-sref='work'> Work </a>
+                <a class="break1" ui-sref='break'> Break </a>
+                <a class="longbreak1" ui-sref='longbreak'> Long Break </a>
+            </div>
+        </div>
+    
+        <script src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js'></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.11/angular-ui-router.min.js"></script>
+        <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/buzz/1.1.0/buzz.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="./scripts/app.js"></script>
+    
+        <div ui-view></div>
+    
+    </body>
+</html>
