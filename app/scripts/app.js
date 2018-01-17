@@ -14,21 +14,21 @@ TimerApp.config(['$stateProvider', '$locationProvider', function($stateProvider,
   $stateProvider.state('longbreak', {
     url: '/longbreak',
     controller: 'ChillCtrl',
-    templateUrl: '/app/templates/longbreak.html'
+    templateUrl: './app/templates/longbreak.html'
     });
 
 
   $stateProvider.state('work', {
     url: '/work',
     controller: 'WorkCtrl',
-    templateUrl: '/app/templates/work.html '
+    templateUrl: './app/templates/work.html '
     });
 
 
   $stateProvider.state('break', {
     url: '/break',
     controller: 'BreakCtrl',
-    templateUrl: '/app/templates/break.html '
+    templateUrl: './app/templates/break.html '
     }); 
   
 
